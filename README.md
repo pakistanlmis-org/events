@@ -18,13 +18,9 @@ Monthly review meetings module is developed the facilitate departments for smoot
 
 For successfull running the module, kindly follow these steps:
 
-1. Restore this file on your mysql server : db/*.sql
+1. Restore this file on your mysql server : calendar.sql
 
-2.Go to file : classes/database.php , and set your DB credentials in following variables : 
-				    private $hostname = "";
-    private $username = "";
-    private $password = "";
-    private $db = '';
+2.Go to file : bdd.php , and set your DB credentials.
 			
 3. Now you are all set to log in.
 
